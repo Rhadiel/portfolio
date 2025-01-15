@@ -1,5 +1,4 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
 import profileImage from '../assets/images/aboutrad.png';
 import { Typewriter } from 'react-simple-typewriter'; // Import Typewriter effect
 
