@@ -28,6 +28,7 @@ const App = () => {
       <div className={`bg-white dark:bg-gray-900 text-black dark:text-white`}>
         <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
+        <Route path="/" element={<Hero />} />
           <Route path="/home" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
